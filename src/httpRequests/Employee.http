@@ -1,0 +1,9 @@
+# We can use Intellij for creating, saving, and executing our REST requests.
+# This file will grow as the API is built out.
+
+# To execute, simply run the project (Gradle bootRun) and then click the green arrow
+# to the left of the desired call.
+
+### GET request
+@employeeId = 1
+GET http://localhost:8080/employee/{{employeeId}}
